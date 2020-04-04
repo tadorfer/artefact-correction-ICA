@@ -27,4 +27,4 @@ df.to_csv('eeg.csv', index=False)
 
 ```
 
-Note: This does not include any preprocessing steps such as average referencing or signal filtering.
+**Note:** This does not include any preprocessing steps such as average referencing or signal filtering.
