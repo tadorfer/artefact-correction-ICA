@@ -2,6 +2,17 @@
 
 This repository contains the notebook referenced in my [Medium post](https://medium.com/@thomas.a.dorfer/artefact-correction-with-ica-53afb63ad300) on ICA-based artefact correction.
 
+### Dependencies
+
+- Numpy
+- Pandas
+- mne
+- scikit-learn
+- matplotlib
+- PyQt5 (for dynamic plot only)
+
+### From .vhdr to .csv
+
 The EEG data used in this notebook, `eeg.csv`, was originally loaded into Python using the [MNE package](https://mne.tools/stable/index.html). Assuming the raw EEG data file is named `eeg.vhdr` (Brain Products), the corresponding code to convert the .vhdr file to .csv is as follows:
 
 ```python
